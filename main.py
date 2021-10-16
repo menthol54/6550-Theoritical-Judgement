@@ -1,8 +1,16 @@
-import story as s
+from dialouge import d_intro
 import os
 import time
-import story as s
 from termcolor import colored
+import sys
+os.system('color')
+
+
+def print_slow(str):
+    for char in str:
+        time.sleep(.09)
+        sys.stdout.write(char)
+        sys.stdout.flush()
 
 
 def intros():
@@ -29,9 +37,8 @@ def intros():
         return intros()
 
 
-def story():
-    print(s.d_intro[0])
-    print(colored("What is your name?", 'green'))
+def intro_dialogue():
+    print_slow(colored(d_intro[0], 'red'))
 
 
-story()
+intro_dialogue()
