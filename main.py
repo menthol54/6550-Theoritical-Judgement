@@ -3,6 +3,7 @@ import os
 import time
 from termcolor import colored
 import sys
+from game import game
 os.system('color')
 
 global rejection, running
@@ -43,18 +44,11 @@ def intros():
         time.sleep(1)
         intros()
 
-def intro_dialogue():
-    os.system('cls')
-    print_slow(colored(d_intro[0], 'red'))
-
 def main():
     if intros() == True:
         running = True
         if running == True:
             game()
-
-def game():
-    pass
         
-if __name__ == '__main__':
+#if __name__ == '__main__':
     main()
