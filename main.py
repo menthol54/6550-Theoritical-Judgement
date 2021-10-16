@@ -27,7 +27,7 @@ def intros():
         if intro_2.lower() == 'yes':
             time.sleep(1)
             print("Very Good. Welcome to Theoritical Judgement.")
-            time.sleep(0.5)
+            time.sleep(0.2)
             os.system('cls')
             return True
         elif intro_2.lower() == 'no':
@@ -47,3 +47,14 @@ def intro_dialogue():
     os.system('cls')
     print_slow(colored(d_intro[0], 'red'))
 
+def main():
+    if intros() == True:
+        running = True
+        if running == True:
+            game()
+
+def game():
+    pass
+        
+if __name__ == '__main__':
+    main()
