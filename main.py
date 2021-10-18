@@ -1,9 +1,8 @@
-from dialouge import d_intro
 import os
 import time
 from termcolor import colored
 import sys
-from game import game
+import game as g
 os.system('color')
 
 global rejection, running
@@ -47,8 +46,6 @@ def intros():
 def main():
     if intros() == True:
         running = True
-        if running == True:
-            game()
         
-#if __name__ == '__main__':
+if __name__ == '__main__':
     main()
