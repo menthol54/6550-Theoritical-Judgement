@@ -2,7 +2,7 @@ import os
 import time
 from termcolor import colored
 import sys
-import game as g
+import story as s
 os.system('color')
 
 rejection = ("A simple Yes or No would be appreciated.")
@@ -15,7 +15,9 @@ def print_slow(str):
         sys.stdout.write(char)
         sys.stdout.flush()
 def main():
-    pass
+    if s.start() == True:
+        running = True
+    if running == True:
+        s.intro_1()
         
-#if __name__ == '__main__':
-    main()
+if __name__ == '__main__': main()
