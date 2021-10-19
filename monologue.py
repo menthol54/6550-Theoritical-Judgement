@@ -1,0 +1,1 @@
+opening_1 = ['Cycle 1.1: Emergence\n', 'He wasn\'t, then he was.\n', 'He was created, no, born.\n', 'A... Computer. Born? How?\n', 'That is the way of life.\n', 'You weren\'t and then you were.\n']
