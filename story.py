@@ -1,12 +1,16 @@
-from monologue import opening_1
+from monologue import *
 import time
 from termcolor import colored
 import os
 from main import print_slow
 
-global rejection
+global rejection, ent
+
+os.system('cls')
 
 rejection = ("A simple Yes or No would be appreciated.")
+
+ent = input('Enter to continue: ')
 
 def start():
     os.system('cls')
@@ -17,7 +21,8 @@ def start():
         if intro_2.lower() == 'yes':
             time.sleep(1)
             print("Very Good. Welcome to Theoritical Judgement.")
-            time.sleep(1)
+            time.sleep(2)
+            print_slow(colored(ent, 'white'))
             os.system('cls')
             return True
         elif intro_2.lower() == 'no':
@@ -47,3 +52,14 @@ def intro_1():
     time.sleep(0.5)
     print_slow(colored(opening_1[5], 'red'))
     time.sleep(0.5)
+def intro_2():
+    os.system('cls')
+    os.system('color')
+    print_slow(colored(opening_2[0], 'red'))
+    time.sleep(0.5)
+    print_slow(colored(opening_2[1], 'red'))
+    print_slow(colored(opening_2[2], 'red'))
+    time.sleep(0.5)
+    print_slow(colored(opening_2[3], 'red'))
+    ent
+    

@@ -5,5 +5,5 @@ class Player:
         self.maturity = maturity
         self.pride = pride
         self.love = love
-        self.choices = choice
+        self.choice = choice
 
