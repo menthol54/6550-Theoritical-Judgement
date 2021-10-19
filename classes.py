@@ -4,6 +4,7 @@ class Decision:
         self.choices = choices
 
     def choice_amount(self):
-        k = 0
+        amnt = 0
         for x in self.choices:
-            k += 1
+            amnt += 1
+
