@@ -3,7 +3,7 @@ from story import *
 import os
 import time
 import sys
-
+# duvaarn to cravin
 os.system('color')
 
 rejection = "A simple Yes or No would be appreciated."

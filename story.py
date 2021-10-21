@@ -11,6 +11,8 @@ file_0 = open('savedata.txt', 'r')
 act = file_0.read()
 file_0.close()
 
+# duvaarn to cravin
+
 
 def save(s):
     file = open('savedata.txt', 'w')
