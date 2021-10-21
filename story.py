@@ -22,10 +22,11 @@ os.system('cls')
 
 rejection = "A simple Yes or No would be appreciated."
 
-ent = input('Enter to continue: ')
+
 
 
 def start():
+    ent = input('Enter to continue: ')
     os.system('cls')
     time.sleep(1)
     intro_1 = input('Would you like to play a game? (Yes) or (No): ')
@@ -81,7 +82,6 @@ def intro_1():
     time.sleep(0.5)
     print_slow(colored(opening_1[5], 'red'))
     time.sleep(0.5)
-    print_slow(colored(ent, 'white'))
 
 
 def intro_2():
@@ -111,7 +111,6 @@ def intro_3():
     print_slow(colored(opening_3[5], 'red'))
     time.sleep(0.5)
     print_slow(colored(opening_3[6], 'red'))
-    print_slow(colored(ent, 'white'))
 
 
 def intro_4():
