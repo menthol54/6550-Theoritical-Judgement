@@ -1,7 +1,6 @@
 from story import *
 import os
 import time
-from termcolor import colored
 import sys
 import story as s
 os.system('color')

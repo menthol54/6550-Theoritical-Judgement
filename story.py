@@ -1,5 +1,5 @@
 import os.path
-from monologue import *
+from text import *
 import time
 from termcolor import colored
 import os
@@ -94,7 +94,6 @@ def intro_2():
     print_slow(colored(opening_2[2], 'red'))
     time.sleep(0.5)
     print_slow(colored(opening_2[3], 'red'))
-    print_slow(colored(ent, 'white'))
 
 
 def intro_3():
