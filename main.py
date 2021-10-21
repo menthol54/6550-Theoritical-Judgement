@@ -36,6 +36,8 @@ def main():
                 s.intro_4()
                 time.sleep(2)
                 s.intro_5()
+                time.sleep(2)
+                s.intro_cohort()
             elif act == '2':
                 time.sleep(2)
                 s.intro_2()
@@ -45,6 +47,8 @@ def main():
                 s.intro_4()
                 time.sleep(2)
                 s.intro_5()
+                time.sleep(2)
+                s.intro_cohort()
             elif act == '3':
                 time.sleep(2)
                 s.intro_3()
@@ -52,17 +56,21 @@ def main():
                 s.intro_4()
                 time.sleep(2)
                 s.intro_5()
+                time.sleep(2)
+                s.intro_cohort()
             elif act == '4':
                 time.sleep(2)
                 s.intro_4()
                 time.sleep(2)
                 s.intro_5()
+                time.sleep(2)
+                s.intro_cohort()
             elif act == '5':
                 time.sleep(2)
                 s.intro_5()
-            elif act == '6':
                 time.sleep(2)
-                s.intro_5()
+                s.intro_cohort()
+            elif act == '6':
                 time.sleep(2)
                 s.intro_cohort()
     except KeyboardInterrupt:
@@ -72,4 +80,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
+    input('...')

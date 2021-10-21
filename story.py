@@ -32,10 +32,10 @@ def start():
     time.sleep(1)
     if act and act != '1':
         restart = input('Would you like to restart or continue. (Yes) or (No): ').lower()
-        if restart == 'no':
+        if restart == 'yes':
             act = '1'
             save('1')
-        elif restart == 'yes':
+        elif restart == 'no':
             pass
         else:
             os.system('cls')
@@ -110,6 +110,8 @@ def intro_5():
     for x in opening_5:
         print_slow(colored(x, 'red'))
         time.sleep(0.5)
+
+
 def intro_cohort():
     save('6')
     os.system('cls')
