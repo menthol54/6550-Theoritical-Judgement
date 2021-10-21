@@ -30,14 +30,12 @@ def start():
     ent = input('Enter to continue: ')
     os.system('cls')
     time.sleep(1)
-    intro_1 = input('Would you like to play a game? (Yes) or (No): ')
-
     if act and act != '1':
-        restart = input('Would you like to restart or continue. Enter y to continue and n to restart:\n').lower()
-        if restart == 'n':
+        restart = input('Would you like to restart or continue. (Yes) or (No): ').lower()
+        if restart == 'no':
             act = '1'
             save('1')
-        elif restart == 'y':
+        elif restart == 'yes':
             pass
         else:
             os.system('cls')
@@ -46,6 +44,7 @@ def start():
             return start()
     else:
         save('1')
+    intro_1 = input('Would you like to play a game? (Yes) or (No): ')
     if intro_1.lower() == 'yes':
         intro_2_ = input("Would you like a hear story? (Yes) or (No): ")
         if intro_2_.lower() == 'yes':
@@ -112,7 +111,7 @@ def intro_5():
         print_slow(colored(x, 'red'))
         time.sleep(0.5)
 def intro_cohort():
-    save('5')
+    save('6')
     os.system('cls')
     os.system('color')
     for x in fatherless_1:

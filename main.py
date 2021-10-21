@@ -62,6 +62,8 @@ def main():
                 s.intro_5()
             elif act == '6':
                 time.sleep(2)
+                s.intro_5()
+                time.sleep(2)
                 s.intro_cohort()
     except KeyboardInterrupt:
         os.system('cls')
