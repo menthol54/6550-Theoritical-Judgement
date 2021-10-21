@@ -111,3 +111,10 @@ def intro_5():
     for x in opening_5:
         print_slow(colored(x, 'red'))
         time.sleep(0.5)
+def intro_cohort():
+    save('5')
+    os.system('cls')
+    os.system('color')
+    for x in fatherless_1:
+        print_slow(colored(x, 'red'))
+        time.sleep(0.5)
