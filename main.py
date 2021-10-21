@@ -1,8 +1,9 @@
+import story as s
 from story import *
 import os
 import time
 import sys
-import story as s
+
 os.system('color')
 
 rejection = "A simple Yes or No would be appreciated."
@@ -18,47 +19,47 @@ def print_slow(string):
 
 
 def main():
-    global running
-    global act
+    global running, act
     try:
         if s.start():
             running = True
+            from story import act
         if running:
-                if act == '1':
-                    time.sleep(2)
-                    s.intro_1()
-                    time.sleep(2)
-                    s.intro_2()
-                    time.sleep(2)
-                    s.intro_3()
-                    time.sleep(2)
-                    s.intro_4()
-                    time.sleep(2)
-                    s.intro_5()
-                elif act == '2':
-                    time.sleep(2)
-                    s.intro_2()
-                    time.sleep(2)
-                    s.intro_3()
-                    time.sleep(2)
-                    s.intro_4()
-                    time.sleep(2)
-                    s.intro_5()
-                elif act == '3':
-                    time.sleep(2)
-                    s.intro_3()
-                    time.sleep(2)
-                    s.intro_4()
-                    time.sleep(2)
-                    s.intro_5()
-                elif act == '4':
-                    time.sleep(2)
-                    s.intro_4()
-                    time.sleep(2)
-                    s.intro_5()
-                elif act == '5':
-                    time.sleep(2)
-                    s.intro_5()
+            if act == '1':
+                time.sleep(2)
+                s.intro_1()
+                time.sleep(2)
+                s.intro_2()
+                time.sleep(2)
+                s.intro_3()
+                time.sleep(2)
+                s.intro_4()
+                time.sleep(2)
+                s.intro_5()
+            elif act == '2':
+                time.sleep(2)
+                s.intro_2()
+                time.sleep(2)
+                s.intro_3()
+                time.sleep(2)
+                s.intro_4()
+                time.sleep(2)
+                s.intro_5()
+            elif act == '3':
+                time.sleep(2)
+                s.intro_3()
+                time.sleep(2)
+                s.intro_4()
+                time.sleep(2)
+                s.intro_5()
+            elif act == '4':
+                time.sleep(2)
+                s.intro_4()
+                time.sleep(2)
+                s.intro_5()
+            elif act == '5':
+                time.sleep(2)
+                s.intro_5()
     except KeyboardInterrupt:
         os.system('cls')
         os.system('color')
@@ -66,3 +67,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    input('')
