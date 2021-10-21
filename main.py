@@ -26,53 +26,29 @@ def main():
             from story import act
         if running:
             if act == '1':
-                time.sleep(2)
-                s.intro_1()
-                time.sleep(2)
-                s.intro_2()
-                time.sleep(2)
-                s.intro_3()
-                time.sleep(2)
-                s.intro_4()
-                time.sleep(2)
-                s.intro_5()
-                time.sleep(2)
-                s.intro_cohort()
+                for x in functions:
+                    time.sleep(2)
+                    x()
             elif act == '2':
-                time.sleep(2)
-                s.intro_2()
-                time.sleep(2)
-                s.intro_3()
-                time.sleep(2)
-                s.intro_4()
-                time.sleep(2)
-                s.intro_5()
-                time.sleep(2)
-                s.intro_cohort()
+                for x in functions[1:]:
+                    time.sleep(2)
+                    x()
             elif act == '3':
-                time.sleep(2)
-                s.intro_3()
-                time.sleep(2)
-                s.intro_4()
-                time.sleep(2)
-                s.intro_5()
-                time.sleep(2)
-                s.intro_cohort()
+                for x in functions[2:]:
+                    time.sleep(2)
+                    x()
             elif act == '4':
-                time.sleep(2)
-                s.intro_4()
-                time.sleep(2)
-                s.intro_5()
-                time.sleep(2)
-                s.intro_cohort()
+                for x in functions[3:]:
+                    time.sleep(2)
+                    x()
             elif act == '5':
-                time.sleep(2)
-                s.intro_5()
-                time.sleep(2)
-                s.intro_cohort()
+                for x in functions[4:]:
+                    time.sleep(2)
+                    x()
             elif act == '6':
-                time.sleep(2)
-                s.intro_cohort()
+                for x in functions[5:]:
+                    time.sleep(2)
+                    x()
     except KeyboardInterrupt:
         os.system('cls')
         os.system('color')
@@ -80,4 +56,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-    input('...')
+    input('\n...')

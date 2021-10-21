@@ -119,3 +119,13 @@ def intro_cohort():
     for x in fatherless_1:
         print_slow(colored(x, 'red'))
         time.sleep(0.5)
+
+
+functions = [
+    intro_1,
+    intro_2,
+    intro_3,
+    intro_4,
+    intro_5,
+    intro_cohort
+]
