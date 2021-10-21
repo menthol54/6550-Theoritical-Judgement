@@ -117,15 +117,19 @@ def intro_cohort():
     os.system('cls')
     os.system('color')
     for x in fatherless_1:
-        print_slow(colored(x, 'red'))
+        print_slow(colored(x, 'blue'))
         time.sleep(0.5)
-
-
+def conversation_omega_1():
+    save('7')
+    for x in fatherless_2:
+        print_slow(colored(x, 'blue'))
+        time.sleep(0.5)
 functions = [
     intro_1,
     intro_2,
     intro_3,
     intro_4,
     intro_5,
-    intro_cohort
+    intro_cohort,
+    conversation_omega_1
 ]

@@ -49,9 +49,13 @@ def main():
                 for x in functions[5:]:
                     time.sleep(2)
                     x()
+            elif act == '7':
+                for x in functions[6:]:
+                    time.sleep(2)
+                    x()
     except KeyboardInterrupt:
-        os.system('cls')
         os.system('color')
+        os.system('cls')
 
 
 if __name__ == '__main__':
