@@ -29,8 +29,8 @@ def main():
                 time.sleep(2)
                 x()
     except KeyboardInterrupt:
-        os.system('color')
         os.system('cls')
+        os.system('color')
 
 
 if __name__ == '__main__':
