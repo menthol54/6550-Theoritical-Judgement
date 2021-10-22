@@ -81,8 +81,6 @@ def intro_1():
 
 def intro_2():
     save('2')
-    os.system('cls')
-    os.system('color')
     for x in opening_2:
         print_slow(colored(x, 'red'))
         time.sleep(0.5)
@@ -97,8 +95,6 @@ def intro_3():
 
 def intro_4():
     save('4')
-    os.system('cls')
-    os.system('color')
     for x in opening_4:
         print_slow(colored(x, 'red'))
         time.sleep(0.5)
@@ -106,7 +102,6 @@ def intro_4():
 
 def intro_5():
     save('5')
-    os.system('cls')
     os.system('color')
     for x in opening_5:
         print_slow(colored(x, 'red'))
@@ -115,8 +110,6 @@ def intro_5():
 
 def intro_cohort():
     save('6')
-    os.system('cls')
-    os.system('color')
     for x in fatherless_1:
         print_slow(colored(x, 'blue'))
         time.sleep(0.5)
@@ -128,13 +121,31 @@ def conversation_omega_1():
         time.sleep(0.5)
 
 def intro_6():
-    os.system('cls')
     os.system('color')
     save('8')
     for x in opening_7:
         print_slow(colored(x, 'red'))
         time.sleep(0.5)
-
+def intro_7():
+    save('9')
+    for x in opening_8:
+        print_slow(colored(x, 'red'))
+        time.sleep(0.5)
+def intro_8():
+    save('10')
+    os.system('cls')
+    for x in opening_9:
+        print_slow(colored(x, 'blue'))
+        time.sleep(0.5)
+def intro_9():
+    save('11')
+    for x in opening_10:
+        print_slow(colored(x, 'blue'))
+        time.sleep(0.5)
+    for x in opening_11:
+        print_slow(colored(x, 'blue'))
+        time.sleep(2)
+    print_slow(colored("End Of Cycle 1: Emergence...", 'blue'))
 
 functions = [
     intro_1,
@@ -145,5 +156,7 @@ functions = [
     intro_cohort,
     conversation_omega_1,
     intro_6,
-    Player.event_1
+    intro_7,
+    intro_8,
+    intro_9,
 ]
