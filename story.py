@@ -4,6 +4,7 @@ import time
 from termcolor import colored
 import os
 from main import print_slow
+from classes import user
 
 global ent
 
@@ -131,6 +132,9 @@ def intro_6():
     for x in opening_7:
         print_slow(colored(x, 'red'))
         time.sleep(0.5)
+
+
+
 functions = [
     intro_1,
     intro_2,
