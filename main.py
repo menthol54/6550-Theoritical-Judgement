@@ -53,6 +53,10 @@ def main():
                 for x in functions[6:]:
                     time.sleep(2)
                     x()
+            elif act == '8':
+                for x in functions[7:]:
+                    time.sleep(2)
+                    x()
     except KeyboardInterrupt:
         os.system('color')
         os.system('cls')
@@ -60,4 +64,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-    input('\n...')
+input('\n...')

@@ -124,6 +124,13 @@ def conversation_omega_1():
     for x in fatherless_2:
         print_slow(colored(x, 'blue'))
         time.sleep(0.5)
+def intro_6():
+    os.system('cls')
+    os.system('color')
+    save('8')
+    for x in opening_7:
+        print_slow(colored(x, 'red'))
+        time.sleep(0.5)
 functions = [
     intro_1,
     intro_2,
@@ -131,5 +138,6 @@ functions = [
     intro_4,
     intro_5,
     intro_cohort,
-    conversation_omega_1
+    conversation_omega_1,
+    intro_6
 ]
