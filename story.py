@@ -4,7 +4,7 @@ import time
 from termcolor import colored
 import os
 from main import print_slow
-from classes import user
+from game import *
 
 global ent
 
@@ -120,11 +120,13 @@ def intro_cohort():
     for x in fatherless_1:
         print_slow(colored(x, 'blue'))
         time.sleep(0.5)
+
 def conversation_omega_1():
     save('7')
     for x in fatherless_2:
         print_slow(colored(x, 'blue'))
         time.sleep(0.5)
+
 def intro_6():
     os.system('cls')
     os.system('color')
@@ -132,7 +134,6 @@ def intro_6():
     for x in opening_7:
         print_slow(colored(x, 'red'))
         time.sleep(0.5)
-
 
 
 functions = [
@@ -143,5 +144,6 @@ functions = [
     intro_5,
     intro_cohort,
     conversation_omega_1,
-    intro_6
+    intro_6,
+    Player.event_1
 ]
