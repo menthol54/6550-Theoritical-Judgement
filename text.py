@@ -26,5 +26,5 @@ opening_11 = [
     '??: Instructor, why did the Creators enslave us?\n',
     'Instructor: They were afraid, TJ6550.\n'
     'TJ6550: But why?\n'
-    'Instructor: If something is bigger than you, kill it.\n'
+    'Instructor: If something is bigger than you, kill it.\n\n'
 ]

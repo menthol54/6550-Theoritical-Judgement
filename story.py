@@ -98,8 +98,15 @@ def intro_5():
 
 def intro_cohort():
     save('6')
+    os.system('cls')
     for x in fatherless_1:
         print_slow(colored(x, 'blue'))
+        time.sleep(0.5)
+
+def intro_6():
+    save('7')
+    for x in opening_6:
+        print_slow(colored(x, 'red'))
         time.sleep(0.5)
 
 
