@@ -25,18 +25,4 @@ class Player:
         self.pride = pride
         self.love = love
 
-    def event_1(self):
-        save('9')
-        for x in event_01:
-            print_slow(colored(x, 'red'))
-        for x in event_01_op:
-            print_slow(colored(x, 'red'))
-        ans = input('')
-        if ans.lower() == 'a':
-            print('a')
-        elif ans.lower() == 'b':
-            print('b')
-        elif ans.lower() == 'c':
-            print('c')
-        else:
-            return Player.event_1(self)
+    

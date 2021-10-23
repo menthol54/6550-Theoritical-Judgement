@@ -150,6 +150,10 @@ def intro_9():
         time.sleep(2)
     print_slow(colored("End Of Cycle 1: Emergence...", 'blue'))
 
+#End Of Opening dialogue
+
+
+
 
 functions = [
     intro_1,
