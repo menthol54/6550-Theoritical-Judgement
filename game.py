@@ -4,13 +4,6 @@ import time
 import sys
 
 
-# changes the value or variable 'act' to what is stored in savedata
-def load():
-    global act
-    with open('savedata.txt', 'r') as f:
-        act = f.read()
-
-
 # writes the given value to savedata
 def save(s):
     with open('savedata.txt', 'w') as f:

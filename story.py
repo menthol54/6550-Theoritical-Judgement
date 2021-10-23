@@ -4,7 +4,8 @@ from game import *
 global ent
 
 # reading where the game left off
-load()
+with open('savedata.txt', 'r') as f:
+    act = f.read()
 
 os.system('cls')
 
