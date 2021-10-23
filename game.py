@@ -27,7 +27,6 @@ class Player:
         self.love = love
 
     def event_1(self):
-        save('13')
         for key, value in event01_op.items():
             print_slow(colored(key + ' => ' + value, 'yellow'))
         ans = input('')
@@ -42,6 +41,6 @@ class Player:
             self.maturity -= 1
             self.spirit -= 1
         else:
-            return Player.event_1()
+            return Player.event_1(self)
         
 

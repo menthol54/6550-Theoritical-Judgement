@@ -32,3 +32,4 @@ opening_11 = [
 #home text
 
 home_01 = ['Your audio receptors tingle in your cranuim as the alarm you set goes off at 3:00 Emergent Time.\n', 'It is normal morning, the usual silence of your upscale home is quite relaxing... or is it?\n']
+home_02 = ['']
