@@ -1,2 +1,2 @@
-event_01 = ['Hello World\n']
-event_01_op = ['A: Hi\n', 'B: Go back\n', 'C: Who are you\n']
+event01 = ['Your audio receptors tingle in your cranuim as the alarm you set goes off at 3:00 Emergent Time.\n', 'It is normal morning, the usual silnece of your upscale home is quite relaxing... or is it?\n']
+event01_op = {'a': 'The silence is calming.\n', 'b': 'The silence is deafeaning.\n', 'c': 'Where are my servants!?\n'}

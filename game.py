@@ -25,4 +25,14 @@ class Player:
         self.pride = pride
         self.love = love
 
-    
+    def event_01():
+        for x in event01:
+            print_slow(colored(x, 'red'))
+            time.sleep(0.5)
+        for key, value in event01_op.items():
+            print_slow(colored(key + ' => ' + value, 'yellow'))
+        ans = input('')
+        if ans.lower() == 'a':
+            print_slow(colored(list(event01_op.values())[0], 'red'))
+    event_01()    
+
