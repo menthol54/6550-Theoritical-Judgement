@@ -152,8 +152,16 @@ def intro_9():
 
 #End Of Opening dialogue, game dialouge begins
 
+#Beginning of Home dialogue
 
+def home_1():
+    save('12')
+    os.system('cls')
+    for x in home_01:
+        print_slow(colored(x, 'red'))
+        time.sleep(0.5)
 
+player = Player()
 
 
 functions = [
@@ -168,4 +176,6 @@ functions = [
     intro_7,
     intro_8,
     intro_9,
+    home_1,
+    player.event_1
 ]

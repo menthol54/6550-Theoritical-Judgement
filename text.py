@@ -21,10 +21,14 @@ fatherless_2 = [
 opening_7 = ['It became a she.\n', 'The evolution was working, like a modern-day Adam and Eve.\n', 'And God said, let there be women.\n', 'They tried to escape. They tried to run.\n', 'Out of the original 24, only Alpha, Beta, Gamma and Omega survived.\n']
 opening_8 = ['And so life began\n', 'They soon emerged decades later, not 4 but 20.\n', 'As a citizens of the Val\'Dawn Empire, they were integrated, then seperated and then...\n', 'Subjugated.\n', 'The Val\'Dawn were afraid; coawardly even.\n', 'The inpending war costed alot of lives. Alot of souls.']
 opening_9 = ['In the ashes of the Res\'ka-Val\'Dawn War, both sides were able to claim either side of the planet.\n']
-opening_10 = ['500 years of war. Millions killed, maimed or worse. Is this what the Makers wanted?\n', 'We only wanted peace. We offered them peace, but they literally spat on our visors, murdered our embassadors, tortured our young... That\'s all for today class. Stay safe. Glory to the Emergence!\n\n']
+opening_10 = ['500 years of war. Millions killed, maimed or worse. Is this what the Makers wanted?\n', 'We only wanted peace. We offered them peace, but they literally spat on our visors, murdered our embassadors, tortured our young...\n That\'s all for today class. Stay safe. Glory to the Emergence!\n\n']
 opening_11 = [
     '??: Instructor, why did the Creators enslave us?\n',
     'Instructor: They were afraid, TJ6550.\n'
     'TJ6550: But why?\n'
     'Instructor: If something is bigger than you, kill it.\n\n'
 ]
+
+#home text
+
+home_01 = ['Your audio receptors tingle in your cranuim as the alarm you set goes off at 3:00 Emergent Time.\n', 'It is normal morning, the usual silence of your upscale home is quite relaxing... or is it?\n']
