@@ -1,23 +1,38 @@
 from gtext import *
-import time
 from termcolor import colored
-import os
-from main import print_slow
+import time
+import sys
 
 
+# changes the value or variable 'act' to what is stored in savedata
+def load():
+    global act
+    with open('savedata.txt', 'r') as f:
+        act = f.read()
+
+
+# writes the given value to savedata
 def save(s):
-    file = open('savedata.txt', 'w')
-    file.write(s)
-    file.close()
+    with open('savedata.txt', 'w') as f:
+        f.write(s)
+
+
+def print_slow(string):
+    for char in string:
+        time.sleep(.05)
+        sys.stdout.write(char)
+        sys.stdout.flush()
+
+
 class Player:
-    def __init__(self, persuasion = 5, spirit = 5, maturity = 10, pride = 5, love = 1):
+    def __init__(self, persuasion=5, spirit=5, maturity=10, pride=5, love=1):
         self.persuasion = persuasion
         self.spirit = spirit
         self.maturity = maturity
         self.pride = pride
         self.love = love
 
-    def event_1():
+    def event_1(self):
         save('9')
         for x in event_01:
             print_slow(colored(x, 'red'))
@@ -31,4 +46,4 @@ class Player:
         elif ans.lower() == 'c':
             print('c')
         else:
-            return Player.event_1()
+            return Player.event_1(self)

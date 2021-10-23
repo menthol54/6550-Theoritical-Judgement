@@ -1,38 +1,24 @@
-import os.path
-from text import *
-import time
-from termcolor import colored
 import os
-from main import print_slow
+from text import *
 from game import *
-
 global ent
 
-file_0 = open('savedata.txt', 'r')
-act = file_0.read()
-file_0.close()
-
-# duvaarn to cravin
-
-
-def save(s):
-    file = open('savedata.txt', 'w')
-    file.write(s)
-    file.close()
-
+# reading where the game left off
+load()
 
 os.system('cls')
 
 rejection = "A simple Yes or No would be appreciated."
 
 
+# Begins the opening dialogue
 def start():
     global act
     ent = input('Enter to continue: ')
     os.system('cls')
     time.sleep(1)
     if act and act != '1':
-        restart = input('Would you like to restart or continue. (Yes) or (No): ').lower()
+        restart = input('Would you like to restart? (Yes) or (No): ').lower()
         if restart == 'yes':
             act = '1'
             save('1')
@@ -45,6 +31,7 @@ def start():
             return start()
     else:
         save('1')
+
     intro_1 = input('Would you like to play a game? (Yes) or (No): ')
     if intro_1.lower() == 'yes':
         intro_2_ = input("Would you like a hear story? (Yes) or (No): ")
@@ -114,11 +101,13 @@ def intro_cohort():
         print_slow(colored(x, 'blue'))
         time.sleep(0.5)
 
+
 def conversation_omega_1():
     save('7')
     for x in fatherless_2:
         print_slow(colored(x, 'blue'))
         time.sleep(0.5)
+
 
 def intro_6():
     os.system('color')
@@ -126,17 +115,23 @@ def intro_6():
     for x in opening_7:
         print_slow(colored(x, 'red'))
         time.sleep(0.5)
+
+
 def intro_7():
     save('9')
     for x in opening_8:
         print_slow(colored(x, 'red'))
         time.sleep(0.5)
+
+
 def intro_8():
     save('10')
     os.system('cls')
     for x in opening_9:
         print_slow(colored(x, 'blue'))
         time.sleep(0.5)
+
+
 def intro_9():
     save('11')
     for x in opening_10:
@@ -146,6 +141,7 @@ def intro_9():
         print_slow(colored(x, 'blue'))
         time.sleep(2)
     print_slow(colored("End Of Cycle 1: Emergence...", 'blue'))
+
 
 functions = [
     intro_1,
