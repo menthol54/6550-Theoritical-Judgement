@@ -42,5 +42,15 @@ class Player:
             self.spirit -= 1
         else:
             return Player.event_1(self)
-        
-
+    def event_2(self):
+        for key, value in event02_op.items():
+            print_slow(colored(key + '=>' + value, 'yellow'))    
+        ans = input('')
+        if ans.lower() == 'a':
+            print_slow(colored(list(event02_op.values())[0], 'red'))
+        elif ans.lower() == 'b':
+            print_slow(colored(list(event02_op.values())[1], 'red'))
+        elif ans.lower() == 'c':
+            print_slow(colored(list(event02_op.values())[2], 'red'))
+        else:
+            return Player.event_2(self)

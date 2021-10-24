@@ -157,9 +157,19 @@ def intro_9():
 def home_1():
     save('12')
     os.system('cls')
+    print_slow(colored("Cycle 2: Resentment", 'blue'))
     for x in home_01:
         print_slow(colored(x, 'red'))
         time.sleep(0.5)
+
+def home_2():
+    save('13')
+    os.system('cls')
+    for x in home_02:
+        print_slow(colored(x, 'red'))
+        time.sleep(0.5)
+
+
 
 player = Player()
 
@@ -177,5 +187,7 @@ functions = [
     intro_8,
     intro_9,
     home_1,
-    player.event_1
+    player.event_1,
+    home_2,
+    player.event_2
 ]

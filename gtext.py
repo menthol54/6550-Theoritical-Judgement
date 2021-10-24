@@ -1,1 +1,2 @@
 event01_op = {'a': 'The silence is calming.\n', 'b': 'The silence is deafeaning.\n', 'c': 'Where are my servants!?\n'}
+event02_op = {'a': 'I hope he recovers.\n', 'b': 'Hmm.\n', 'c': 'That louse. Odds are he\'s faking.\n'}

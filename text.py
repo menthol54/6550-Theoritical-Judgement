@@ -32,4 +32,4 @@ opening_11 = [
 #home text
 
 home_01 = ['Your audio receptors tingle in your cranuim as the alarm you set goes off at 3:00 Emergent Time.\n', 'It is normal morning, the usual silence of your upscale home is quite relaxing... or is it?\n']
-home_02 = ['']
+home_02 = ['Your main servants come to your aid. Class 3 workers, loyal but nevertheless on a payroll.\n', '"Good morning, sir." One of the maids greets you as she prepares to clean your berth.\n', '"NA2321... I did not expect you. Where is YH3450?" You croak.\n', '"Yellow Haze 3450 is ill. A bug in his Codex, sir." She answers as you stand to your feet.']
