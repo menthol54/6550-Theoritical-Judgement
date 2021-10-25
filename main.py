@@ -2,7 +2,6 @@ import story as s
 from story import *
 import os
 import time
-from story import act
 
 os.system('color')
 
@@ -15,6 +14,7 @@ def main():
             for x in functions[int(act) - 1:]:
                 time.sleep(2)
                 x()
+                os.system('cls')
     except KeyboardInterrupt:
         os.system('cls')
         os.system('color')
