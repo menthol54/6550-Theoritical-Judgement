@@ -5,6 +5,12 @@ import sys
 import os
 
 
+# checks is savadata exists
+def save_check():
+    x = os.path.isfile('savedata.txt')
+    return x
+
+
 # writes the given value to savedata
 def save(s):
     with open('savedata.txt', 'w') as f:
@@ -42,6 +48,7 @@ class Player:
             self.spirit -= 1
         else:
             return Player.event_1(self)
+
     def event_2(self):
         for key, value in event02_op.items():
             print_slow(colored(key + '=>' + value, 'yellow'))    
