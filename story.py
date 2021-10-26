@@ -170,6 +170,12 @@ def home_2():
         time.sleep(0.5)
 
 
+def home_3():
+    save('14')
+    for x in home_03:
+        print_slow(colored(x, 'red'))
+        time.sleep(0.5)
+
 
 player = Player()
 
@@ -189,5 +195,6 @@ functions = [
     home_1,
     player.event_1,
     home_2,
-    player.event_2
+    player.event_2,
+    home_3
 ]

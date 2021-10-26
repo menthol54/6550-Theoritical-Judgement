@@ -16,8 +16,9 @@ def main():
                 time.sleep(2)
                 x()
     except KeyboardInterrupt:
-        os.system('cls')
         os.system('color')
+        os.system('cls')
+        
 
 
 # calls and runs the game
