@@ -1,7 +1,13 @@
-import os
+import os.path
 from text import *
 from game import *
 global ent
+
+# making a savefile is one is not there
+if not save_check():
+    with open('savedata.txt', 'w+') as file:
+        pass
+
 
 # reading where the game left off
 with open('savedata.txt', 'r') as f:
@@ -150,10 +156,10 @@ def intro_9():
         time.sleep(2)
     print_slow(colored("End Of Cycle 1: Emergence...", 'blue'))
 
-#End Of Opening dialogue, game dialouge begins
+# End Of Opening dialogue, game dialouge begins
 
-#Beginning of Home dialogue
 
+# Beginning of Home dialogue
 def home_1():
     save('12')
     os.system('cls')
@@ -161,6 +167,7 @@ def home_1():
     for x in home_01:
         print_slow(colored(x, 'red'))
         time.sleep(0.5)
+
 
 def home_2():
     save('13')

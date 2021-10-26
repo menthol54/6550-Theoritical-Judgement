@@ -5,6 +5,12 @@ import sys
 import os
 
 
+# checks is savadata exists
+def save_check():
+    x = os.path.isfile('savedata.txt')
+    return x
+
+
 # writes the given value to savedata
 def save(s):
     with open('savedata.txt', 'w') as f:
