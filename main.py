@@ -14,10 +14,10 @@ def main():
             for x in functions[int(act) - 1:]:
                 time.sleep(2)
                 x()
-                os.system('cls')
+                #os.system('cls')
     except KeyboardInterrupt:
         os.system('color')
-        os.system('cls')
+        #os.system('cls')
         
 
 

@@ -167,11 +167,11 @@ def home_1():
     for x in home_01:
         print_slow(colored(x, 'red'))
         time.sleep(0.5)
+        player.event_1
 
 
 def home_2():
     save('13')
-    os.system('cls')
     for x in home_02:
         print_slow(colored(x, 'red'))
         time.sleep(0.5)
@@ -182,7 +182,26 @@ def home_3():
     for x in home_03:
         print_slow(colored(x, 'red'))
         time.sleep(0.5)
+def home_4():
+    save('15')
+    for x in home_04:
+        print_slow(colored(x, 'red'))
+        time.sleep(0.5)
 
+
+def interval_1():
+    os.system('')
+    save('16')
+    for x in interval:
+        print_slow(colored(x, 'blue'))
+        time.sleep(0.5)
+def sister_talk():
+    save('17')
+    for x in sister_talk_1:
+        print_slow(colored(x, 'blue'))
+        time.sleep(0.5)
+    for x in sister_talk_2:
+        print_slow(colored(x, 'blue'))
 
 player = Player()
 
@@ -200,8 +219,10 @@ functions = [
     intro_8,
     intro_9,
     home_1,
-    player.event_1,
     home_2,
     player.event_2,
-    home_3
+    home_3,
+    home_4,
+    interval_1,
+    sister_talk
 ]
