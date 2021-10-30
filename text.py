@@ -35,17 +35,17 @@ home_01 = ['Your audio receptors tingle in your cranuim as the alarm you set goe
 home_02 = ['Your main servants come to your aid. Class 3 workers, loyal but nevertheless on a payroll.\n', '"Good morning, sir." One of the maids greets you as she prepares to clean your berth.\n', '"NA2321... I did not expect you. Where is YH3450?" You croak.\n', '"Yellow Haze 3450 is ill. A bug in his Codex, sir." She answers as you stand to your feet.\n\n']
 home_03 = ['She casted you a look. You pay no attention.\n', 'The servants finish their tasks while you leave your quarters for the closest Sanitation room.\n', 'You\'re 25 cycles old, fresh from your transmutation cycle, making you and adult.\n', 'You stand at an average of 6\'2 for your age and weigh just under 300kg.\n', 'You peer into the mirror, gaze casted directly into your visor.\n', 'You were born without a face because of a rare codex error known as Epheloch.\nIt\'s a rare error that affects the physical development of the facial plates.\n', 'By the time you were delivered, your face had sealed up. The only way you could interact was with a lab-grown visor grafted to your outer skull\'s shell.\n', 'Ever since then you\'ve found it... hard to socialize.\n', 'You can read people and yet they cannot read you. It\'s like a brick wall both ways.\n', 'You are treated as special, defective, handy-capped.\nYou are ready to prove that you are not.\n']
 home_04 = ['Before you leave, you cover yourself with a layer of Class 1 Armor. Magnetic interlockings interact with strips welded to your naked body.\n', 'A standard black with white trims signifying your unemployment and age group.\n', 'After looking at yourself once more, you splash water on your visor, this is what you are.\n', 'This is who you are.', 'Your name is Theoretical Judgement 6550 kas Score Keeper, Second Class.\n', 'Your people are at war, fighting for survival.\n', '"Long Live the Res\'Ka Emergence."\n']
-interval = ['You spend several hours in your room, running simulations in your head. This ability is a side-eefect of your mutation.\n', 'The power to overclock your processor and run a chorus of predictive alogrithms.\n']
-sister_talk_1 = ['You hear a knock at your door. As expected.\n', '"Enter", you call.\n', 'Wavering Judgement 5422, your younger kinsmate.\n', 'Female, 5\'4, like embers her eyes blaze with curiosity and speak to the innermost core of your being.\n', 'Her slender, undecorated body lacked the spines or sharp contours of most.\n','She is considered to be plain, even for her age.\n']
+interval = ['You spend several hours in your room, running simulations in your head. This ability is a side-efect of your mutation.\n', 'The power to overclock your processor and run a chorus of predictive alogrithms.\n']
+sister_talk_1 = ['You hear a knock at your door. As expected.\n', '"Enter", you call.\n', 'Wavering Judgement 5422, your younger kinsmate.\n', 'Female, 5\'4, her eyes like embers  blaze with curiosity and speak to the innermost core of your being.\n', 'Her slender, undecorated body lacked the spines or sharp contours of most.\n','She is considered to be plain, even for her age.\n']
 
 sister_talk_2 = [
     '"Elder kinmate, why have you not left your berth?", she asks with a worrying tone.\n',
     '"*sigh*. The future worrys me. I may very well be disowned by tommorow", you confess.\n',
-    'Wavered flashed a concerned looked, stepping into your room and locking the door. She sits on your birth, ready to listen.\n',
+    'Wavered flashed a concerned looked, stepping into your room and locking the door. She sits on your berth, ready to listen.\n',
     '"Theo, you may confide in me.", she affirms. If you could, you would smile.\n',
     '"I want to become an AOD, I want to fight and protect you, my family, my species.", you reveal. She covers her Induction Port, shcoked by this revelation.\n',
     '"Are you crazy!? I do not want to bury you before I even turn 10 cycles old!", she exclaims with worry.\n','"What would our Progenitors think?", mumbled the young Res\'Ka.\n'
-    '"I am planning to tell them in the evening. After, I will be escorted to begin my intiation."',
+    '"I am planning to tell them in the evening. After, I will be escorted to begin my intiation."\n, Its a half truth. ',
     ''
     ''
 ]
